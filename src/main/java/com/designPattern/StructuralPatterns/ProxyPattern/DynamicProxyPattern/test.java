@@ -11,5 +11,7 @@ public class test {
                 new ServiceInvocationHandler(realService)
         );
         proxyInstance.performOperation();
+        System.out.println("----------------------------");
+        proxyInstance.anotherOperation();
     }
 }
